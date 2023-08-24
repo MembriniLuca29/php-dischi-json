@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 35%;
+}
+
+.card img {
+    max-width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
